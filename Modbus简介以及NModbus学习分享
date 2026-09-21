@@ -1,0 +1,58 @@
+转载
+2023-12-23 08:15:18
+3.8k 阅读
+AI 写同款
+·
+GEO 优化
+›
+Modbus简介以及NModbus学习分享
+Modbus简介，以及用C#实现数据操作，包括读写（通过NModebus）
+阅读详情
+9de0f21df184fc41840570ea20c5b0d1.gif
+
+本文简介
+Modbus是一种流行的工业通信协议，广泛应用于工业自动化领域。在C#中，有许多Modbus库可供选择，这些库提供了方便的API和丰富的功能，使Modbus通信变得更加简单和高效。本文将推荐几个优秀的C# Modbus库，以帮助轻松实现Modbus通信。
+
+80caece7ac09682ad40ca6436d12f524.jpeg
+
+C# Modbus库推荐
+1、NModbus
+NModbus是一个开源的C# Modbus库，具有丰富的功能和良好的性能。它是Modbus协议的c#实现。提供连接到Modbus从兼容设备和应用程序。支持串行ASCII、串行RTU、TCP和UDP协议，提供了读写寄存器、读写离散输入、读写线圈等常用功能。NModbus4项目已经封档不更新。此项目是NModbus4的一个分支。
+
+NModbus与NModbus4的区别
+• Modbus从设备现在添加到由IModbusSlaveInstance表示的网络中。
+
+• 更多地使用接口
+
+• 自定义函数代码处理程序可以添加到从设备。
+
+源码地址
+https://github.com/NModbus/NModbus
+
+2、EasyModbusTCP.NET
+EasyModbusTCP.NET是一个Modbus TCP、Modbus UDP 和 Modbus RTU 客户端/服务器库，用于 .NET 行业认证！从 PC 或嵌入式系统快速安全地访问许多 PLC 系统和其他用于工业自动化的组件。只需几行代码即可在 PLC 中读取或写入数据。
+
+支持的功能代码
+• 读取线圈 （FC1）
+
+• 读取离散输入 （FC2）
+
+• 读取保持寄存器 （FC3）
+
+• 读取输入寄存器 （FC4）
+
+• 写入单线圈 （FC5）
+
+• 写入单寄存器 （FC6）
+
+• 写入多个线圈 （FC15）
+
+• 写入多个寄存器 （FC16）
+
+• 读/写多个寄存器 （FC23）
+
+源码地址
+https://github.com/rossmann-engineering/EasyModbusTCP.NET
+
+3、IoTClient
+也是一款支持modbus协议的组件，本组件基于.NET Standard 2.0，可用于.Net的跨平台开发，如Windows、Linux甚至可运行于树莓派上。由于之前的文章已经介绍过它，本文不再阐述。
