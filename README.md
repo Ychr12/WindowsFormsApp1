@@ -15,3 +15,10 @@ https://github.com/Taiizor/ReaLTaiizor
 开源地址：https://github.com/agentthink/indus-env-monitor
 
 https://github.com/agentthink/SeriWaveScope
+
+
+
+https://github.com/NModbus/NModbus/tree/master/NModbus.Serial
+
+
+https://github.com/boyan0928/leisaiMotion
